@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\numericalC\LU.cpp">
+      <Filter>src\numericalC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\numericalC\PBCG.cpp">
+      <Filter>src\numericalC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\numericalC\SVD.cpp">
+      <Filter>src\numericalC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PQP\Build.cpp">
+      <Filter>src\PQP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PQP\BV.cpp">
+      <Filter>src\PQP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PQP\PQP.cpp">
+      <Filter>src\PQP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PQP\TriDist.cpp">
+      <Filter>src\PQP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\polygonizer\ImplicitFunction.cpp">
+      <Filter>src\polygonizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\polygonizer\Polygonizer.cpp">
+      <Filter>src\polygonizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataStructure\AxisKdTree.cpp">
+      <Filter>src\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataStructure\OctTree.cpp">
+      <Filter>src\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataStructure\PointSet.cpp">
+      <Filter>src\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataStructure\PolygonalMesh.cpp">
+      <Filter>src\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HRBFQI\FileManager.cpp">
+      <Filter>src\HRBFQI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HRBFQI\HRBF.cpp">
+      <Filter>src\HRBFQI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HRBFQI\MeshCleaner.cpp">
+      <Filter>src\HRBFQI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{61272403-4fb5-4a33-b931-c463b00b0b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\numericalC">
+      <UniqueIdentifier>{3a44c47a-5622-4eb3-a7d9-9e1762238fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PQP">
+      <UniqueIdentifier>{b627ae5c-fe27-4a7d-92bf-07149a9bc855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\polygonizer">
+      <UniqueIdentifier>{06dbdc8e-c5ca-446f-8d70-0714e221d444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\DataStructure">
+      <UniqueIdentifier>{3d86c3a0-abed-492e-a85c-fbba766ad2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HRBFQI">
+      <UniqueIdentifier>{418571e3-d884-48b3-8da8-3bdead161a8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\numericalC\jacobi.h">
+      <Filter>src\numericalC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\numericalC\LU.h">
+      <Filter>src\numericalC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\numericalC\NRUTIL.H">
+      <Filter>src\numericalC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\numericalC\PBCG.h">
+      <Filter>src\numericalC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\numericalC\SVD.h">
+      <Filter>src\numericalC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\Build.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\BV.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\BVTQ.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\GetTime.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\MatVec.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\OBB_Disjoint.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\pqp.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\PQP_Compile.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\PQP_Internal.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\RectDist.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\Tri.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PQP\TriDist.h">
+      <Filter>src\PQP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\polygonizer\ImplicitFunction.h">
+      <Filter>src\polygonizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\polygonizer\Polygonizer.h">
+      <Filter>src\polygonizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DataStructure\AxisKdTree.h">
+      <Filter>src\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DataStructure\OctTree.h">
+      <Filter>src\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DataStructure\PointSet.h">
+      <Filter>src\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DataStructure\PolygonalMesh.h">
+      <Filter>src\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HRBFQI\FileManager.h">
+      <Filter>src\HRBFQI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HRBFQI\HRBF.h">
+      <Filter>src\HRBFQI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HRBFQI\MeshCleaner.h">
+      <Filter>src\HRBFQI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HRBFQI\Header.h">
+      <Filter>src\HRBFQI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HRBFQI\stdafx.h">
+      <Filter>src\HRBFQI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
