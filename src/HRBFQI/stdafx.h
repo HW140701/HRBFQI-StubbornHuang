@@ -22,7 +22,7 @@
 #include <afxcmn.h>			// 
 #endif // _AFX_NO_AFXCMN_SUPPORT
 
-#define THREADS_NUM	8
+#define THREADS_NUM	2
 #define MAX_NEIGHBOURS_NUM 10000
 
 // TODO: reference additional headers your program requires here
