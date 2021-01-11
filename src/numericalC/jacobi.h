@@ -1,6 +1,8 @@
 #ifndef JACOBI_H 
 #define JACOBI_H 
 
+#include <stdio.h>
+#include <memory>
 
 #include <math.h>
 #define NRANSI

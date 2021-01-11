@@ -1,6 +1,6 @@
-// Polygonizer.h: Polygonizer 
-//
-//////////////////////////////////////////////////////////////////////
+#ifndef POLYGONOZER_H
+#define POLYGONOZER_H
+
 
 #include "../DataStructure/PointSet.h"
 #include "../DataStructure/PolygonalMesh.h"
@@ -151,3 +151,6 @@ public:
 			   A[9];
 	}
 };
+
+
+#endif

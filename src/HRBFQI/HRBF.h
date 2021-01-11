@@ -1,4 +1,6 @@
-#pragma once
+#ifndef HRBF_H
+#define HRBF_H
+
 #include "../DataStructure/PointSet.h"
 #include "../DataStructure/OctTree.h"
 #include "math.h"
@@ -70,3 +72,5 @@ public:
 	// evaluate
 	float valueMP(float x, float y, float z, int *tb);
 };
+
+#endif

@@ -1,5 +1,5 @@
-#ifndef AXISKDTREE
-#define AXISKDTREE
+#ifndef AXIS_KDTREE_H
+#define AXIS_KDTREE_H
 
 #include "PointSet.h"
 #include <stdio.h>

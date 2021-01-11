@@ -1,13 +1,5 @@
-// OctTree.h: OctTree 
-//
-//////////////////////////////////////////////////////////////////////
-
-#if !defined(AFX_OCTTREE_H__B2DDC163_33E0_4996_8D78_7153D535816E__INCLUDED_)
-#define AFX_OCTTREE_H__B2DDC163_33E0_4996_8D78_7153D535816E__INCLUDED_
-
-//#if _MSC_VER > 1000
-//#pragma once
-//#endif // _MSC_VER > 1000
+#ifndef OCT_TREE_H
+#define OCT_TREE_H
 
 #include "PointSet.h"
 #include "math.h"
@@ -200,4 +192,4 @@ public:
 	}
 };
 
-#endif // !defined(AFX_OCTTREE_H__B2DDC163_33E0_4996_8D78_7153D535816E__INCLUDED_)
+#endif // !OCT_TREE_H

@@ -1,10 +1,5 @@
-
-#if !defined(AFX_PBCG_H__CC3ABADB_C14B_4915_8BAE_E087F1AF70CB__INCLUDED_)
-#define AFX_PBCG_H__CC3ABADB_C14B_4915_8BAE_E087F1AF70CB__INCLUDED_
-
-#if _MSC_VER > 1000
-#pragma once
-#endif // _MSC_VER > 1000
+#ifndef PBCG_H
+#define PBCG_H
 
 #include <stdio.h>
 #include <stddef.h>
@@ -316,4 +311,4 @@ void free_f3tensor(float ***t, long nrl, long nrh, long ncl, long nch,
 /* (C) Copr. 1986-92 Numerical Recipes Software 9z!+!1(t+%. */
 };
 
-#endif // !defined(AFX_PBCG_H__CC3ABADB_C14B_4915_8BAE_E087F1AF70CB__INCLUDED_)
+#endif

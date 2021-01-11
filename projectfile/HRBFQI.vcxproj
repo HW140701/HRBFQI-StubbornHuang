@@ -174,7 +174,6 @@
     <ClInclude Include="..\src\HRBFQI\Header.h" />
     <ClInclude Include="..\src\HRBFQI\HRBF.h" />
     <ClInclude Include="..\src\HRBFQI\MeshCleaner.h" />
-    <ClInclude Include="..\src\HRBFQI\stdafx.h" />
     <ClInclude Include="..\src\numericalC\jacobi.h" />
     <ClInclude Include="..\src\numericalC\LU.h" />
     <ClInclude Include="..\src\numericalC\NRUTIL.H" />

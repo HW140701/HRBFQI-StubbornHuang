@@ -1,27 +1,7 @@
-// PointSet.cpp: PointSet クラスのインプリメンテーション
-//
-//////////////////////////////////////////////////////////////////////
-#include <afxwin.h>         // MFC のコアおよび標準コンポーネント
-#include <afxext.h>         // MFC の拡張部分
-#include <afxdisp.h>        // MFC のオートメーション クラス
-#include <afxdtctl.h>		// MFC の Internet Explorer 4 コモン コントロール サポート
-#ifndef _AFX_NO_AFXCMN_SUPPORT
-#include <afxcmn.h>			// MFC の Windows コモン コントロール サポート
-#endif // _AFX_NO_AFXCMN_SUPPORT
 
 #include "PointSet.h"
 #include "math.h"
 #include "../numericalC/jacobi.h"
-
-#ifdef _DEBUG
-#undef THIS_FILE
-static char THIS_FILE[]=__FILE__;
-#define new DEBUG_NEW
-#endif
-
-//////////////////////////////////////////////////////////////////////
-// 構築/消滅
-//////////////////////////////////////////////////////////////////////
 
 PointSet::PointSet()
 {

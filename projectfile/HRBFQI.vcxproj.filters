@@ -153,8 +153,5 @@
     <ClInclude Include="..\src\HRBFQI\Header.h">
       <Filter>src\HRBFQI</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\HRBFQI\stdafx.h">
-      <Filter>src\HRBFQI</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

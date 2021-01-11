@@ -1,23 +1,12 @@
-// OctTree.cpp: OctTree 
-//
-//////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////
-#include <afxwin.h>         //  
-#include <afxext.h>         // 
-#include <afxdisp.h>        // 
-#include <afxdtctl.h>		// 
-#ifndef _AFX_NO_AFXCMN_SUPPORT
-#include <afxcmn.h>			//
-#endif // _AFX_NO_AFXCMN_SUPPORT
 
 #include "windows.h"
 #include "OctTree.h"
 
-#ifdef _DEBUG
-#undef THIS_FILE
-static char THIS_FILE[]=__FILE__;
-#define new DEBUG_NEW
-#endif
+//#ifdef _DEBUG
+//#undef THIS_FILE
+//static char THIS_FILE[]=__FILE__;
+//#define new DEBUG_NEW
+//#endif
 
 #include "math.h"
 

@@ -1,12 +1,5 @@
-// PolygonalMesh.h: PolygonalMesh 
-//////////////////////////////////////////////////////////////////////
-
-#if !defined(AFX_POLYGONALMESH_H__B935C905_B5B1_4EC0_A79E_B24D736D1879__INCLUDED_)
-#define AFX_POLYGONALMESH_H__B935C905_B5B1_4EC0_A79E_B24D736D1879__INCLUDED_
-
-#if _MSC_VER > 1000
-#pragma once
-#endif // _MSC_VER > 1000
+#ifndef POLYGONAL_MESH_H
+#define POLYGONAL_MESH_H
 
 #include <math.h>
 #include <vector>
@@ -258,4 +251,4 @@ public:
 	}
 };
 
-#endif // !defined(AFX_POLYGONALMESH_H__B935C905_B5B1_4EC0_A79E_B24D736D1879__INCLUDED_)
+#endif

@@ -2,20 +2,11 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#include "stdafx.h"
+#include "Header.h"
 #include "FileManager.h"
 
 #include "../DataStructure/PolygonalMesh.h"
 
-#ifdef _DEBUG
-#undef THIS_FILE
-static char THIS_FILE[]=__FILE__;
-#define new DEBUG_NEW
-#endif
-
-//////////////////////////////////////////////////////////////////////
-// 
-//////////////////////////////////////////////////////////////////////
 char CAP(char c){
   if (c >= 'a' && c < 'z')
     return c + ('A' - 'a');
@@ -32,7 +23,7 @@ FileManager::~FileManager()
 
 }
 
-void FileManager::setFile(FILE *file, CString file_name, CString file_ext)
+void FileManager::setFile(FILE* file, std::string file_name, std::string file_ext)
 {
 	this->file =  file;
 	this->file_name = file_name;

@@ -1,10 +1,7 @@
+#ifndef LU_H
+#define LU_H
 
-#if !defined(AFX_LU_H__F33E212C_97BB_4A96_8A01_808AE3BF46F7__INCLUDED_)
-#define AFX_LU_H__F33E212C_97BB_4A96_8A01_808AE3BF46F7__INCLUDED_
 
-#if _MSC_VER > 1000
-#pragma once
-#endif // _MSC_VER > 1000
 #include <stdio.h>
 #include <stddef.h>
 #include <stdlib.h>
@@ -308,4 +305,4 @@ void free_f3tensor(float ***t, long nrl, long nrh, long ncl, long nch,
 /* (C) Copr. 1986-92 Numerical Recipes Software 9z!+!1(t+%. */
 };
 
-#endif // !defined(AFX_LU_H__F33E212C_97BB_4A96_8A01_808AE3BF46F7__INCLUDED_)
+#endif

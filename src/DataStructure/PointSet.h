@@ -1,13 +1,6 @@
-// PointSet.h: PointSet 
-//
-//////////////////////////////////////////////////////////////////////
+#ifndef POINT_SET_H
+#define POINT_SET_H
 
-#if !defined(AFX_POINTSET_H__E3B75762_65C7_489D_A051_4FE7277A5630__INCLUDED_)
-#define AFX_POINTSET_H__E3B75762_65C7_489D_A051_4FE7277A5630__INCLUDED_
-
-#if _MSC_VER > 1000
-#pragma once
-#endif // _MSC_VER > 1000
 
 class PointSet  
 {
@@ -44,4 +37,4 @@ public:
 	int point_N;
 };
 
-#endif // !defined(AFX_POINTSET_H__E3B75762_65C7_489D_A051_4FE7277A5630__INCLUDED_)
+#endif // !POINT_SET_H

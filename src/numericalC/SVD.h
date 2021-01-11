@@ -1,13 +1,5 @@
-// SVD.h: SVD
-//
-//////////////////////////////////////////////////////////////////////
-
-#if !defined(AFX_SVD_H__D804F4AB_8C10_44B3_8C5B_19E0A44A0C8E__INCLUDED_)
-#define AFX_SVD_H__D804F4AB_8C10_44B3_8C5B_19E0A44A0C8E__INCLUDED_
-
-#if _MSC_VER > 1000
-#pragma once
-#endif // _MSC_VER > 1000
+#ifndef SVD_H
+#define SVD_H
 
 #include <stdio.h>
 #include <stddef.h>
@@ -309,4 +301,4 @@ void free_f3tensor(float ***t, long nrl, long nrh, long ncl, long nch,
 
 };
 
-#endif // !defined(AFX_SVD_H__D804F4AB_8C10_44B3_8C5B_19E0A44A0C8E__INCLUDED_)
+#endif
